@@ -1,0 +1,125 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4d2edeb1-1aac-44fc-b162-f4764a969876": {
+        "id": "4d2edeb1-1aac-44fc-b162-f4764a969876",
+        "parent": null,
+        "name": "cxc",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "58089ac5-711e-47b6-91d2-23b7824f2613"
+        ],
+        "isRemovable": false,
+        "filePath": "cxc"
+      },
+      "58089ac5-711e-47b6-91d2-23b7824f2613": {
+        "id": "58089ac5-711e-47b6-91d2-23b7824f2613",
+        "parent": "4d2edeb1-1aac-44fc-b162-f4764a969876",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "cxc/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameqainduany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "4d2edeb1-1aac-44fc-b162-f4764a969876",
+    "openFiles": [
+      "58089ac5-711e-47b6-91d2-23b7824f2613"
+    ],
+    "currentFileId": "58089ac5-711e-47b6-91d2-23b7824f2613",
+    "resources": {
+      "apigusEast1sachithraAPInameqainduany": {
+        "name": "apigusEast1sachithraAPInameqainduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "qa/indu",
+          "resourcePath": "/qa/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test0",
+          "stageDeploymentId": "wrumf2",
+          "mode": 1
+        }
+      },
+      "s3as2TestLahiru": {
+        "name": "s3as2TestLahiru",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "as2-test-lahiru"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "javascript",
+          "version": "2.176.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "cxc",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576660400760
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "cxc",
+      "url": "https://github.com/Indunil1992/cxc"
+    }
+  }
+}
